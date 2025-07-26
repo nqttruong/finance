@@ -18,7 +18,7 @@
 
 ### 1. Cài đặt môi trường
 
-```bash
+```bash```
 python3 -m venv final
 source final/bin/activate
 pip install -r requirements.txt
