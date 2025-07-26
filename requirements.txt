@@ -1,0 +1,23 @@
+# Streamlit UI
+streamlit==1.35.0
+
+# Kafka
+six==1.16.0  # 🛠️ Fix lỗi kafka.vendor.six.moves
+
+# MongoDB
+pymongo==4.6.3
+
+# Deep Learning
+torch==2.2.2
+
+# Dữ liệu + mô hình
+numpy==1.26.4
+scikit-learn==1.4.2
+joblib==1.4.2
+plotly
+# HTTP requests
+requests==2.31.0
+
+# Xử lý dữ liệu
+pandas==2.2.2
+streamlit-autorefresh
