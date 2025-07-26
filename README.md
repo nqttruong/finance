@@ -19,10 +19,10 @@
 ### 1. Cài đặt môi trường
 
 ```bash```
-python3 -m venv final \\
-source final/bin/activate \\
-pip install -r requirements.txt \\
+python3 -m venv final <br>
+source final/bin/activate <br>
+pip install -r requirements.txt <br>
 
 ### 2. Chạy hệ thống
-chmod +x run.sh
+chmod +x run.sh <br>
 ./run.sh
