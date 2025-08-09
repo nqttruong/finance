@@ -11,7 +11,7 @@ producer = KafkaProducer(
 TOPIC = 'btc_price'
 
 def fetch_price():
-    url = ''
+    url = 'https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT'
     res = requests.get(url).json()
     print('res',res)
     return {'timestamp': time.time(), 'price': float(res['price'])}

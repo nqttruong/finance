@@ -21,3 +21,4 @@ requests==2.31.0
 # Xử lý dữ liệu
 pandas==2.2.2
 streamlit-autorefresh
+matplotlib>=3.7.0
